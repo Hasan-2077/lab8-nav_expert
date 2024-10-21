@@ -1,0 +1,36 @@
+/* Top Navigation Bar - Centered and Full Width */
+nav {
+    background-color: blue; /* Full-width background color */
+    overflow: hidden; /* Prevent content overflow */
+    width: 100%; /* Span entire width of the page */
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Align navigation items to the center */
+}
+
+nav a {
+    padding: 10px 20px; /* Spacing around each link */
+    color: #fff; /* White text for better contrast */
+    text-decoration: none; /* Remove default link underline */
+}
+
+/* Sidebar - Fixed on the Right */
+aside {
+    position: fixed; /* Fixes the sidebar in place */
+    right: 0; /* Aligns sidebar to the right edge */
+    background-color: red; /* Background color for the sidebar */
+    height: 100%; /* Make sidebar span the full height of the page */
+    width: 20%; /* Set sidebar width */
+    list-style-type: none; /* Remove bullet points */
+    text-align: center; /* Center the text horizontally */
+    padding: 15px 0; /* Add vertical padding */
+}
+
+aside a {
+    display: block; /* Make each link occupy full width */
+    padding: 15px 0; /* Add space around each sidebar item */
+    color: #fff; /* White color for text */
+    text-decoration: none; /* Remove default underline from links */
+}
