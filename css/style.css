@@ -8,7 +8,6 @@
     padding: 0;
     display: flex; /* Flexbox for horizontal alignment */
     justify-content: center; /* Center items horizontally */
-    text-decoration: underline overline;
 }
 
 #main-navbar ul {
