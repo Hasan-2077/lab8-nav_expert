@@ -33,7 +33,7 @@
     right: 0; /* Align sidebar to the right edge */
     background-color: red; /* Sidebar background color */
     height: 100%; /* Full height */
-    width: 20%; /* Sidebar width */
+    width: 15%; /* Sidebar width */
     text-align: center; /* Center text */
     padding: 15px 0; /* Vertical padding */
 }
